@@ -42,7 +42,7 @@ public class WhenCreatingObjects {
 // TODO: Uncomment me
 
         Pet fido = new Dog("Fido","Bone", 5);
-        Pet spot = new Cat("Spot","String", 5);
+        Pet spot = new Cat("Spot",5,"String");
         Pet hazel = new Hamster("Hazel", 1, "Wheel");
 
         assertThat(fido.play(), equalTo("plays with bone"));
